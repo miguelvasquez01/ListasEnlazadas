@@ -6,6 +6,10 @@ public class ListaDoble <T> {
     private Nodo<T> ultimo;
     private int tamano = 0;
 
+    //Obtener la lista de personas tengan cédula con cantidad de elementos par de una lista enlazada doble de personas.
+    //Escribir el Iterador para una lista doblemente enlazada.
+    //Escribir el método imprimirHaciaAtras() de una lista doblemente enlazada.
+
     public void mostrar() {
 
         if (inicial == null || ultimo == null) {
