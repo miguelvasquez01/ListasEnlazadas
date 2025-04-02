@@ -6,10 +6,13 @@ public class Main {
         
         ListaDoble<Integer> lista = new ListaDoble<>();
         lista.agregarFinal(21);
-        lista.agregarFinal(22);
-        lista.agregarFinal(23);
-        lista.agregarFinal(24);
+        // lista.agregarFinal(22);
+        // lista.agregarFinal(23);
+        // lista.agregarFinal(24);
 
+        lista.mostrar();
+
+        lista.eliminar(21);
         lista.mostrar();
     }
 }
