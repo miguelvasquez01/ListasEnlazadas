@@ -14,5 +14,6 @@ public class ListaCircularSimple <T> {
         } else {
             
         }
+        tamano++;
     }
 }
